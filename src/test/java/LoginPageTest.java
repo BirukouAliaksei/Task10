@@ -83,8 +83,7 @@ public class LoginPageTest {
 
     @Test
     @Order(6)
-    public void logOut() throws InterruptedException {
-        Thread.sleep(1000);
+    public void logOut() {
         $(By.xpath("//*[@class='btn dropdown-toggle btn-success navbar-btn']")).click();
         $(By.partialLinkText("Logout")).click();
         assertEquals(loginPageLink, url());
