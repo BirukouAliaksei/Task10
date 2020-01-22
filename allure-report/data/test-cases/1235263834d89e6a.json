@@ -1,0 +1,87 @@
+{
+  "uid" : "1235263834d89e6a",
+  "name" : "simpleTestWithAddingAttachments()",
+  "fullName" : "com.github.mytestuser.SimpleTest.simpleTestWithAddingAttachments",
+  "historyId" : "e741c09ea7d35b429e6d18855b51690d",
+  "time" : {
+    "start" : 1579600138451,
+    "stop" : 1579600138457,
+    "duration" : 6
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Add link to Allure Report resource",
+      "time" : {
+        "start" : 1579600138452,
+        "stop" : 1579600138456,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "804636f2b9d9f1c6",
+        "name" : "Result",
+        "source" : "804636f2b9d9f1c6.txt",
+        "type" : "text/plain",
+        "size" : 25
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-RIU7OQB"
+  }, {
+    "name" : "thread",
+    "value" : "12768@DESKTOP-RIU7OQB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "simpleTestWithAddingAttachments"
+  }, {
+    "name" : "suite",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1235263834d89e6a.json",
+  "parameterValues" : [ ]
+}

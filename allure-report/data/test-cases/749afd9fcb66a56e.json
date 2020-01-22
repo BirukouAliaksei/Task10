@@ -1,0 +1,78 @@
+{
+  "uid" : "749afd9fcb66a56e",
+  "name" : "simpleTestWithAttachments()",
+  "fullName" : "com.github.mytestuser.SimpleTest.simpleTestWithAttachments",
+  "historyId" : "ee121833009f804f928f52c8fafb67b2",
+  "time" : {
+    "start" : 1579516928794,
+    "stop" : 1579516929175,
+    "duration" : 381
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a5ba386ab147b4f2",
+      "name" : "makeAttach",
+      "source" : "a5ba386ab147b4f2.txt",
+      "type" : "text/plain",
+      "size" : 46
+    }, {
+      "uid" : "3a5a0da81e23a996",
+      "name" : "takeScreenShot",
+      "source" : "3a5a0da81e23a996.png",
+      "type" : "image/png",
+      "size" : 208631
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-RIU7OQB"
+  }, {
+    "name" : "thread",
+    "value" : "11864@DESKTOP-RIU7OQB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "simpleTestWithAttachments"
+  }, {
+    "name" : "suite",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "749afd9fcb66a56e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,61 @@
+{
+  "uid" : "50280995b734e44c",
+  "name" : "mathTest8()",
+  "fullName" : "com.github.mytestuser.SimpleTest.mathTest8",
+  "historyId" : "66079da4d65c6dc6c0de1a00d64d86b5",
+  "time" : {
+    "start" : 1579600032877,
+    "stop" : 1579600032883,
+    "duration" : 6
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "subtraction"
+  }, {
+    "name" : "epic",
+    "value" : "Mathematics"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RIU7OQB"
+  }, {
+    "name" : "thread",
+    "value" : "4624@DESKTOP-RIU7OQB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "mathTest8"
+  }, {
+    "name" : "suite",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "50280995b734e44c.json",
+  "parameterValues" : [ ]
+}

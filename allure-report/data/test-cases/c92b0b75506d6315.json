@@ -1,0 +1,90 @@
+{
+  "uid" : "c92b0b75506d6315",
+  "name" : "mathTest12()",
+  "fullName" : "com.github.mytestuser.SimpleTest.mathTest12",
+  "historyId" : "372054334a1955a77b79e6448fac401a",
+  "time" : {
+    "start" : 1579600637423,
+    "stop" : 1579600637424,
+    "duration" : 1
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Mathematics"
+  }, {
+    "name" : "epic",
+    "value" : "division"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RIU7OQB"
+  }, {
+    "name" : "thread",
+    "value" : "2992@DESKTOP-RIU7OQB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "mathTest12"
+  }, {
+    "name" : "suite",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c1e0771b5c33f5d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579600139098,
+        "stop" : 1579600139099,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a908735de8e3da66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579600033112,
+        "stop" : 1579600033116,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "ba930fe3569685e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579516929524,
+        "stop" : 1579516929525,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c92b0b75506d6315.json",
+  "parameterValues" : [ ]
+}

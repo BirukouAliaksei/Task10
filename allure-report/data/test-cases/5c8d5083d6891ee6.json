@@ -1,0 +1,84 @@
+{
+  "uid" : "5c8d5083d6891ee6",
+  "name" : "testSeverity()",
+  "fullName" : "com.github.mytestuser.SimpleTest.testSeverity",
+  "historyId" : "f6c4240d061cfeb4e76de455c0470bf0",
+  "time" : {
+    "start" : 1579600634665,
+    "stop" : 1579600635036,
+    "duration" : 371
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-RIU7OQB"
+  }, {
+    "name" : "thread",
+    "value" : "2992@DESKTOP-RIU7OQB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSeverity"
+  }, {
+    "name" : "suite",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "6f41322e82f885b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579600137214,
+        "stop" : 1579600137288,
+        "duration" : 74
+      }
+    }, {
+      "uid" : "edb10276f30be50f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579600030892,
+        "stop" : 1579600030979,
+        "duration" : 87
+      }
+    }, {
+      "uid" : "26fce054eadee12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579516928317,
+        "stop" : 1579516928384,
+        "duration" : 67
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5c8d5083d6891ee6.json",
+  "parameterValues" : [ ]
+}

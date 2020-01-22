@@ -1,0 +1,64 @@
+{
+  "uid" : "3a3124f11d25da78",
+  "name" : "subTest()",
+  "fullName" : "com.github.mytestuser.SimpleTest.subTest",
+  "historyId" : "4a18044d427778978ee77a22581ca36d",
+  "time" : {
+    "start" : 1579516928553,
+    "stop" : 1579516928554,
+    "duration" : 1
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Subtraction"
+  }, {
+    "name" : "epic",
+    "value" : "Mathematics"
+  }, {
+    "name" : "feature",
+    "value" : "Simple operations"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RIU7OQB"
+  }, {
+    "name" : "thread",
+    "value" : "11864@DESKTOP-RIU7OQB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "subTest"
+  }, {
+    "name" : "suite",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3a3124f11d25da78.json",
+  "parameterValues" : [ ]
+}

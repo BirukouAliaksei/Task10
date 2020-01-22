@@ -1,0 +1,63 @@
+{
+  "uid" : "7ebd42f28b84bc4",
+  "name" : "checkSumWithLinksTest()",
+  "fullName" : "com.github.mytestuser.SimpleTest.checkSumWithLinksTest",
+  "historyId" : "5dafe2ad1bbbe34a75824e23cd3590c",
+  "time" : {
+    "start" : 1579516929441,
+    "stop" : 1579516929441,
+    "duration" : 0
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-RIU7OQB"
+  }, {
+    "name" : "thread",
+    "value" : "11864@DESKTOP-RIU7OQB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkSumWithLinksTest"
+  }, {
+    "name" : "suite",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Link2",
+    "url" : "http://yandex.ru",
+    "type" : "custom"
+  }, {
+    "name" : "Link1",
+    "url" : "http://allure.qatools.ru/",
+    "type" : "custom"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ebd42f28b84bc4.json",
+  "parameterValues" : [ ]
+}

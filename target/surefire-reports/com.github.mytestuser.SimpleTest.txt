@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: com.github.mytestuser.SimpleTest
+-------------------------------------------------------------------------------
+Tests run: 39, Failures: 3, Errors: 1, Skipped: 0, Time elapsed: 3.828 s <<< FAILURE! - in com.github.mytestuser.SimpleTest
+testFlaky  Time elapsed: 0.056 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.github.mytestuser.SimpleTest.testFlaky(SimpleTest.java:128)
+
+throwAnExceptionTest  Time elapsed: 0.037 s  <<< ERROR!
+java.lang.IllegalStateException: Test exception
+	at com.github.mytestuser.SimpleTest.throwAnExceptionTest(SimpleTest.java:42)
+
+failedTest  Time elapsed: 0.058 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: This test should be failed
+	at com.github.mytestuser.SimpleTest.failedTest(SimpleTest.java:159)
+
+checkSinTest  Time elapsed: 0.052 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is <0>
+     but: was <0.0>
+	at com.github.mytestuser.SimpleTest.checkSinTest(SimpleTest.java:118)
+

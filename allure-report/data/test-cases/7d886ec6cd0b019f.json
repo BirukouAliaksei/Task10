@@ -1,0 +1,89 @@
+{
+  "uid" : "7d886ec6cd0b019f",
+  "name" : "issueTmsTest1()",
+  "fullName" : "com.github.mytestuser.SimpleTest.issueTmsTest1",
+  "historyId" : "fa16ae10b27cf56e0f6dbcbb32719bf7",
+  "time" : {
+    "start" : 1579600635750,
+    "stop" : 1579600635765,
+    "duration" : 15
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-RIU7OQB"
+  }, {
+    "name" : "thread",
+    "value" : "2992@DESKTOP-RIU7OQB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "issueTmsTest1"
+  }, {
+    "name" : "suite",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TRITX-123",
+    "url" : "https://example.org/tms/TRITX-123",
+    "type" : "tms"
+  }, {
+    "name" : "ITX-123",
+    "url" : "https://example.org/issue/ITX-123",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2fb6776f3fece81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579600137700,
+        "stop" : 1579600137713,
+        "duration" : 13
+      }
+    }, {
+      "uid" : "95bdd1ee4b29a9ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579600031479,
+        "stop" : 1579600031495,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "e07dd031d57b35b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579516928664,
+        "stop" : 1579516928674,
+        "duration" : 10
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7d886ec6cd0b019f.json",
+  "parameterValues" : [ ]
+}

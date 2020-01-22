@@ -1,0 +1,63 @@
+{
+  "uid" : "2fb6776f3fece81",
+  "name" : "issueTmsTest1()",
+  "fullName" : "com.github.mytestuser.SimpleTest.issueTmsTest1",
+  "historyId" : "fa16ae10b27cf56e0f6dbcbb32719bf7",
+  "time" : {
+    "start" : 1579600137700,
+    "stop" : 1579600137713,
+    "duration" : 13
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-RIU7OQB"
+  }, {
+    "name" : "thread",
+    "value" : "12768@DESKTOP-RIU7OQB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "issueTmsTest1"
+  }, {
+    "name" : "suite",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TRITX-123",
+    "url" : "https://example.org/tms/TRITX-123",
+    "type" : "tms"
+  }, {
+    "name" : "ITX-123",
+    "url" : "https://example.org/issue/ITX-123",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2fb6776f3fece81.json",
+  "parameterValues" : [ ]
+}

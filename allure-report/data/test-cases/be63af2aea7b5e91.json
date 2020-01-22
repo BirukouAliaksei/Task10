@@ -1,0 +1,85 @@
+{
+  "uid" : "be63af2aea7b5e91",
+  "name" : "testOwner()",
+  "fullName" : "com.github.mytestuser.SimpleTest.testOwner",
+  "historyId" : "88995e37991c659949f82073721f0325",
+  "time" : {
+    "start" : 1579600635882,
+    "stop" : 1579600635883,
+    "duration" : 1
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "owner",
+    "value" : "Ivanov Ivan Ivanovich"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RIU7OQB"
+  }, {
+    "name" : "thread",
+    "value" : "2992@DESKTOP-RIU7OQB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testOwner"
+  }, {
+    "name" : "suite",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Ivanov Ivan Ivanovich",
+    "retries" : [ {
+      "uid" : "ca186c913319dfcb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579600137848,
+        "stop" : 1579600137849,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "99ff0ecbadac00cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579600031624,
+        "stop" : 1579600031625,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "517c78c35aa238c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579516928735,
+        "stop" : 1579516928736,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "be63af2aea7b5e91.json",
+  "parameterValues" : [ ]
+}

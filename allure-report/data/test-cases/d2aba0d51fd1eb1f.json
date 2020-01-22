@@ -1,0 +1,72 @@
+{
+  "uid" : "d2aba0d51fd1eb1f",
+  "name" : "csvAttachmentTest()",
+  "fullName" : "com.github.mytestuser.SimpleTest.csvAttachmentTest",
+  "historyId" : "e27cabe456be9aed04ef8f0340aa1e19",
+  "time" : {
+    "start" : 1579600031658,
+    "stop" : 1579600031699,
+    "duration" : 41
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "80a3faea6f39612",
+      "name" : "Sample csv attachment",
+      "source" : "80a3faea6f39612.txt",
+      "type" : "text/csv",
+      "size" : 1268
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-RIU7OQB"
+  }, {
+    "name" : "thread",
+    "value" : "4624@DESKTOP-RIU7OQB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "csvAttachmentTest"
+  }, {
+    "name" : "suite",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d2aba0d51fd1eb1f.json",
+  "parameterValues" : [ ]
+}

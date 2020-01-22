@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.github.mytestuser.SimpleTest" time="3.828" tests="39" errors="1" skipped="0" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\projects\allureJunit5ReportsTask\target\test-classes;C:\projects\allureJunit5ReportsTask\target\classes;C:\Users\Bruss\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\Bruss\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Bruss\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Bruss\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\Bruss\.m2\repository\io\qameta\allure\allure-junit5\2.13.1\allure-junit5-2.13.1.jar;C:\Users\Bruss\.m2\repository\io\qameta\allure\allure-junit-platform\2.13.1\allure-junit-platform-2.13.1.jar;C:\Users\Bruss\.m2\repository\io\qameta\allure\allure-java-commons\2.13.1\allure-java-commons-2.13.1.jar;C:\Users\Bruss\.m2\repository\io\qameta\allure\allure-model\2.13.1\allure-model-2.13.1.jar;C:\Users\Bruss\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\Bruss\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Bruss\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\Bruss\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\Bruss\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\Bruss\.m2\repository\org\junit\platform\junit-platform-launcher\1.5.2\junit-platform-launcher-1.5.2.jar;C:\Users\Bruss\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\Bruss\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\Bruss\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Users\Bruss\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Minsk"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Bruss\AppData\Local\Temp\surefire5335890620093174451\surefirebooter9386303502805801961.jar C:\Users\Bruss\AppData\Local\Temp\surefire5335890620093174451 2020-01-21T12-57-06_193-jvmRun1 surefire5081549122920399003tmp surefire_013100437171102707275tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\projects\allureJunit5ReportsTask\target\test-classes;C:\projects\allureJunit5ReportsTask\target\classes;C:\Users\Bruss\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\Bruss\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Bruss\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Bruss\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\Bruss\.m2\repository\io\qameta\allure\allure-junit5\2.13.1\allure-junit5-2.13.1.jar;C:\Users\Bruss\.m2\repository\io\qameta\allure\allure-junit-platform\2.13.1\allure-junit-platform-2.13.1.jar;C:\Users\Bruss\.m2\repository\io\qameta\allure\allure-java-commons\2.13.1\allure-java-commons-2.13.1.jar;C:\Users\Bruss\.m2\repository\io\qameta\allure\allure-model\2.13.1\allure-model-2.13.1.jar;C:\Users\Bruss\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\Bruss\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Bruss\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\Bruss\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\Bruss\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\Bruss\.m2\repository\org\junit\platform\junit-platform-launcher\1.5.2\junit-platform-launcher-1.5.2.jar;C:\Users\Bruss\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\Bruss\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\Bruss\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Users\Bruss\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Bruss"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-12.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\projects\allureJunit5ReportsTask"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Bruss\AppData\Local\Temp\surefire5335890620093174451\surefirebooter9386303502805801961.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="12.0.2+10"/>
+    <property name="user.name" value="Bruss"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Bruss\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Bruss\AppData\Local\Temp\"/>
+    <property name="java.version" value="12.0.2"/>
+    <property name="user.dir" value="C:\projects\allureJunit5ReportsTask"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-12.0.2\bin;C:\Users\Bruss\Downloads\apache-maven-3.6.2\bin\bin;C:\Users\Bruss\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\bin;;C:\Program Files\Maven\apache-maven-3.6.3\bin;;."/>
+    <property name="junit.jupiter.extensions.autodetection.enabled" value="true"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="12.0.2+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="56.0"/>
+  </properties>
+  <testcase name="testSeverity" classname="com.github.mytestuser.SimpleTest" time="0.809"/>
+  <testcase name="subTest" classname="com.github.mytestuser.SimpleTest" time="0.051"/>
+  <testcase name="sumTest" classname="com.github.mytestuser.SimpleTest" time="0.039"/>
+  <testcase name="simpleTestWithSteps" classname="com.github.mytestuser.SimpleTest" time="0.108"/>
+  <testcase name="simpleTest" classname="com.github.mytestuser.SimpleTest" time="0.032"/>
+  <testcase name="issueTmsTest1" classname="com.github.mytestuser.SimpleTest" time="0.039"/>
+  <testcase name="issueTmsTest2" classname="com.github.mytestuser.SimpleTest" time="0.021"/>
+  <testcase name="testFlaky" classname="com.github.mytestuser.SimpleTest" time="0.056">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.github.mytestuser.SimpleTest.testFlaky(SimpleTest.java:128)
+]]></failure>
+  </testcase>
+  <testcase name="testOwner" classname="com.github.mytestuser.SimpleTest" time="0.019"/>
+  <testcase name="csvAttachmentTest" classname="com.github.mytestuser.SimpleTest" time="0.049"/>
+  <testcase name="simpleTestWithAttachments" classname="com.github.mytestuser.SimpleTest" time="0.765"/>
+  <testcase name="checkSumWithLinkTest" classname="com.github.mytestuser.SimpleTest" time="0.025"/>
+  <testcase name="throwAnExceptionTest" classname="com.github.mytestuser.SimpleTest" time="0.037">
+    <error message="Test exception" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Test exception
+	at com.github.mytestuser.SimpleTest.throwAnExceptionTest(SimpleTest.java:42)
+</error>
+  </testcase>
+  <testcase name="simpleTestWithAddingAttachments" classname="com.github.mytestuser.SimpleTest" time="0.06"/>
+  <testcase name="failedTest" classname="com.github.mytestuser.SimpleTest" time="0.058">
+    <failure message="This test should be failed" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: This test should be failed
+	at com.github.mytestuser.SimpleTest.failedTest(SimpleTest.java:159)
+</failure>
+  </testcase>
+  <testcase name="mathTest1" classname="com.github.mytestuser.SimpleTest" time="0.062"/>
+  <testcase name="mathTest2" classname="com.github.mytestuser.SimpleTest" time="0.033"/>
+  <testcase name="mathTest3" classname="com.github.mytestuser.SimpleTest" time="0.033"/>
+  <testcase name="mathTest4" classname="com.github.mytestuser.SimpleTest" time="0.034"/>
+  <testcase name="mathTest5" classname="com.github.mytestuser.SimpleTest" time="0.038"/>
+  <testcase name="mathTest6" classname="com.github.mytestuser.SimpleTest" time="0.035"/>
+  <testcase name="mathTest7" classname="com.github.mytestuser.SimpleTest" time="0.034"/>
+  <testcase name="mathTest8" classname="com.github.mytestuser.SimpleTest" time="0.035"/>
+  <testcase name="mathTest9" classname="com.github.mytestuser.SimpleTest" time="0.035"/>
+  <testcase name="checkSumWithLinksTest" classname="com.github.mytestuser.SimpleTest" time="0.022"/>
+  <testcase name="svgAttachmentTest" classname="com.github.mytestuser.SimpleTest" time="0.019"/>
+  <testcase name="mathTest10" classname="com.github.mytestuser.SimpleTest" time="0.02"/>
+  <testcase name="mathTest11" classname="com.github.mytestuser.SimpleTest" time="0.024"/>
+  <testcase name="mathTest12" classname="com.github.mytestuser.SimpleTest" time="0.021"/>
+  <testcase name="mathTest13" classname="com.github.mytestuser.SimpleTest" time="0.026"/>
+  <testcase name="mathTest14" classname="com.github.mytestuser.SimpleTest" time="0.02"/>
+  <testcase name="mathTest15" classname="com.github.mytestuser.SimpleTest" time="0.023"/>
+  <testcase name="mathTest16" classname="com.github.mytestuser.SimpleTest" time="0.021"/>
+  <testcase name="mathTest17" classname="com.github.mytestuser.SimpleTest" time="0.022"/>
+  <testcase name="mathTest18" classname="com.github.mytestuser.SimpleTest" time="0.021"/>
+  <testcase name="mathTest19" classname="com.github.mytestuser.SimpleTest" time="0.022"/>
+  <testcase name="mathTest20" classname="com.github.mytestuser.SimpleTest" time="0.023"/>
+  <testcase name="equivalenceTest" classname="com.github.mytestuser.SimpleTest" time="0.021"/>
+  <testcase name="checkSinTest" classname="com.github.mytestuser.SimpleTest" time="0.052">
+    <failure message="&#10;Expected: is &lt;0&gt;&#10;     but: was &lt;0.0&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is <0>
+     but: was <0.0>
+	at com.github.mytestuser.SimpleTest.checkSinTest(SimpleTest.java:118)
+]]></failure>
+  </testcase>
+</testsuite>

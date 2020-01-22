@@ -1,0 +1,104 @@
+{
+  "uid" : "a5d9dbc23c47bee0",
+  "name" : "simpleTestWithAttachments()",
+  "fullName" : "com.github.mytestuser.SimpleTest.simpleTestWithAttachments",
+  "historyId" : "ee121833009f804f928f52c8fafb67b2",
+  "time" : {
+    "start" : 1579600635958,
+    "stop" : 1579600636706,
+    "duration" : 748
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9397e24bc4677b06",
+      "name" : "makeAttach",
+      "source" : "9397e24bc4677b06.txt",
+      "type" : "text/plain",
+      "size" : 46
+    }, {
+      "uid" : "5c24a59462d6b015",
+      "name" : "takeScreenShot",
+      "source" : "5c24a59462d6b015.png",
+      "type" : "image/png",
+      "size" : 220831
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-RIU7OQB"
+  }, {
+    "name" : "thread",
+    "value" : "2992@DESKTOP-RIU7OQB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "simpleTestWithAttachments"
+  }, {
+    "name" : "suite",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "884037b262fa64fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579600137929,
+        "stop" : 1579600138365,
+        "duration" : 436
+      }
+    }, {
+      "uid" : "b1b9606bb4ce41ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579600031737,
+        "stop" : 1579600032392,
+        "duration" : 655
+      }
+    }, {
+      "uid" : "749afd9fcb66a56e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579516928794,
+        "stop" : 1579516929175,
+        "duration" : 381
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a5d9dbc23c47bee0.json",
+  "parameterValues" : [ ]
+}

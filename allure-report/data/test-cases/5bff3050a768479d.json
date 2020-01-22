@@ -1,0 +1,85 @@
+{
+  "uid" : "5bff3050a768479d",
+  "name" : "checkSumWithLinkTest()",
+  "fullName" : "com.github.mytestuser.SimpleTest.checkSumWithLinkTest",
+  "historyId" : "aa9fdc51cd10f747c865913f7d7c1496",
+  "time" : {
+    "start" : 1579600636726,
+    "stop" : 1579600636727,
+    "duration" : 1
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-RIU7OQB"
+  }, {
+    "name" : "thread",
+    "value" : "2992@DESKTOP-RIU7OQB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkSumWithLinkTest"
+  }, {
+    "name" : "suite",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Link",
+    "url" : "http://yandex.ru",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f59ec09f89f9c431",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579600138384,
+        "stop" : 1579600138384,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "771b90652c37891d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579600032416,
+        "stop" : 1579600032417,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4440b0bd0913a957",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579516929188,
+        "stop" : 1579516929188,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5bff3050a768479d.json",
+  "parameterValues" : [ ]
+}

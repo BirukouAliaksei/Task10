@@ -1,0 +1,81 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <true> but was: <false>",
+      "children" : [ {
+        "name" : "testFlaky()",
+        "uid" : "4061459809329cb9",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1579600635823,
+          "stop" : 1579600635840,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "845845d2ca1b5f839f479796c2627505"
+    }, {
+      "name" : "This test should be failed",
+      "children" : [ {
+        "name" : "failedTest()",
+        "uid" : "893b83bc4e589197",
+        "parentUid" : "6d0c06c5e056172e64fa7eef8658e326",
+        "status" : "failed",
+        "time" : {
+          "start" : 1579600636861,
+          "stop" : 1579600636864,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6d0c06c5e056172e64fa7eef8658e326"
+    }, {
+      "name" : "\nExpected: is <0>\n     but: was <0.0>",
+      "children" : [ {
+        "name" : "checkSinTest()",
+        "uid" : "f0f41ae7ec186572",
+        "parentUid" : "65aacac13119f07dabca297971657a08",
+        "status" : "failed",
+        "time" : {
+          "start" : 1579600637681,
+          "stop" : 1579600637686,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "65aacac13119f07dabca297971657a08"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Test exception",
+      "children" : [ {
+        "name" : "throwAnExceptionTest()",
+        "uid" : "11156e9515bb077a",
+        "parentUid" : "c4ef906669c0f2485e7638b85f2c38fd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1579600636754,
+          "stop" : 1579600636755,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c4ef906669c0f2485e7638b85f2c38fd"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

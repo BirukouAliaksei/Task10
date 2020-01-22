@@ -1,0 +1,89 @@
+{
+  "uid" : "e9f43bdc78c3625d",
+  "name" : "checkSumWithLinksTest()",
+  "fullName" : "com.github.mytestuser.SimpleTest.checkSumWithLinksTest",
+  "historyId" : "5dafe2ad1bbbe34a75824e23cd3590c",
+  "time" : {
+    "start" : 1579600637322,
+    "stop" : 1579600637323,
+    "duration" : 1
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-RIU7OQB"
+  }, {
+    "name" : "thread",
+    "value" : "2992@DESKTOP-RIU7OQB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkSumWithLinksTest"
+  }, {
+    "name" : "suite",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Link1",
+    "url" : "http://allure.qatools.ru/",
+    "type" : "custom"
+  }, {
+    "name" : "Link2",
+    "url" : "http://yandex.ru",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c574c47e49292c94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579600138933,
+        "stop" : 1579600138934,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "adb28337b504873d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579600032990,
+        "stop" : 1579600032991,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "7ebd42f28b84bc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579516929441,
+        "stop" : 1579516929441,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9f43bdc78c3625d.json",
+  "parameterValues" : [ ]
+}

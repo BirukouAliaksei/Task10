@@ -1,0 +1,56 @@
+{
+  "uid" : "c201cedc4997fbd1",
+  "name" : "equivalenceTest()",
+  "fullName" : "com.github.mytestuser.SimpleTest.equivalenceTest",
+  "historyId" : "59ffe8ed128e6a419df20e103a0ccb33",
+  "time" : {
+    "start" : 1579516929649,
+    "stop" : 1579516929650,
+    "duration" : 1
+  },
+  "description" : "The test checks the equivalence of the number 1 to the number 1",
+  "descriptionHtml" : "<p>The test checks the equivalence of the number 1 to the number 1</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-RIU7OQB"
+  }, {
+    "name" : "thread",
+    "value" : "11864@DESKTOP-RIU7OQB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "equivalenceTest"
+  }, {
+    "name" : "suite",
+    "value" : "com.github.mytestuser.SimpleTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c201cedc4997fbd1.json",
+  "parameterValues" : [ ]
+}

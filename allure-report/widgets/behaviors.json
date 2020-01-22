@@ -1,0 +1,70 @@
+{
+  "total" : 22,
+  "items" : [ {
+    "uid" : "86f9189e1e37d868954ad6ea83623f81",
+    "name" : "Mathematics",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 20,
+      "unknown" : 0,
+      "total" : 22
+    }
+  }, {
+    "uid" : "9745d3c689c7d4ffd59a715132177d6c",
+    "name" : "Geometry",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "0f6f27bc9a7db1ec48970b05c7dbf485",
+    "name" : "addition",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "846e2ae96c0a6eaea990ab682704c3bb",
+    "name" : "subtraction",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "d0b3953deb6ba56e3cd06e9f1daf2231",
+    "name" : "division",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "a0c8609b39ef4112a459cfa59b8d8878",
+    "name" : "multiplication",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  } ]
+}
