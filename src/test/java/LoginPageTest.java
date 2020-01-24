@@ -1,6 +1,7 @@
 import com.codeborne.selenide.Browser;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
+import com.sun.jndi.toolkit.url.Uri;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import static com.codeborne.selenide.Selenide.*;
@@ -36,8 +37,8 @@ public class LoginPageTest {
     @Test
     @Order(1)
     public void runTest() {
-        Configuration.headless = true;
-        Configuration.browserSize = "1920x1080";
+//        Configuration.headless = true;
+//        Configuration.browserSize = "1920x1080";
         Configuration.timeout = 6000;
         open("http://open-eshop.stqa.ru/oc-panel/auth/login");
     }
@@ -64,7 +65,9 @@ public class LoginPageTest {
         $(couponNum).setValue("555");
         $(submitBtn).click();
         assertEquals("Success", $(By.xpath("//*[@class='alert-heading']")).getText());
+        $(By.xpath("//*[@class='alert-heading']")).shouldHave(text("Success"));
     }
+
 
     @Test
     @Order(4)
@@ -77,7 +80,7 @@ public class LoginPageTest {
     @Order(5)
     public void couponeDelete() {
         $(By.xpath("//*[@class='glyphicon glyphicon-trash']")).click();
-        $(By.xpath("//div[@class='sweet-alert showSweetAlert visible']//*[@class='confirm']")).click();
+        $(By.xpath("//*[@class='confirm']")).click();
         assertFalse($(By.xpath("//*[@class='table table-striped table-bordered']//*[@style='display: none;']")).isDisplayed());
     }
 
